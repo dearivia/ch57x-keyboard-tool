@@ -33,20 +33,20 @@ layers:
       # It can also be just modifiers without a key: 'ctrl-alt'.
       # You may combine up to 5 chords into a sequence using commas: 'ctrl-v,ctrl-c'.
       # Arbitrary scan codes (decimal) may be given like this: '<101>'.
-      - ["a", "ctrl-a", "alt-shift", "alt-ctrl,ctrl-b"]
-      - ["e", "f", "g", "h"]
-      - ["<100>", "j", "k", "l"]
+      - ["1", "2", "3", "4"]
+      - ["5", "6", "7", "8"]
+      - ["9", "10", "11", "12"]
     knobs:
       # Knobs are listed from left to right if horizontal.
       # Knobs are listed from top to bottom if vertical.
       # Knobs can be rotated counter-clockwise (ccw) or clockwise (cw)
       # and pressed down.
-      - ccw: "wheelup"
-        press: "click"
-        cw: "wheeldown"
-      - ccw: "shift-wheelup"
-        press: "shift-click"
-        cw: "shift-wheeldown"
+      - ccw: "+"
+        press: "1"
+        cw: "-"
+      - ccw: "+"
+        press: "1"
+        cw: "-"
 
   - buttons:
       # Mouse events are clicks ('click/lclick', 'rclick', 'mclick') or
